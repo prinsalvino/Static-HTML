@@ -1,0 +1,397 @@
+@font-face{
+	src: url(font/FascinateInline-Regular);
+	font-family: 'Fascinate Inline', cursive;
+	
+	src: url(font/Inconsolata-Regular);
+	font-family: 'Inconsolata', monospace;
+
+}
+@media screen and (min-width: 961px){
+.all
+	{
+		background-image: url("../img/background.jpeg");
+		background-size: 100%;
+		background-repeat:no-repeat;
+	}
+
+	.video
+	{
+		display:block;
+		background-position:center;
+		background-size:cover;
+		height:100%;
+		width:100%;
+		z-index:-1;
+		position:absolute;
+		right:0;
+		left:0;
+		bottom:0;
+		top:0;
+		background:100%;
+		
+		
+	}
+	.s1text
+	{
+		font-family: Fascinate Inline;
+		letter-spacing: 0.1em;
+		font-size: 40px;	
+		text-transform: uppercase;
+		color: 	#FFFFFF;
+		text-align: center;	
+		line-height: 2;	
+		padding:1px 1px 1px 1px;
+		
+		background-image: url("../img/companylogoBG.jpg");
+		width:700px;
+		margin: auto auto;
+		background-size: cover;		
+	}
+a
+	{
+		color : #FFFFFF;
+		text-decoration:none;
+	}
+	
+a:hover
+	{
+		color: #2699FB
+	}
+	
+.s2text
+	{
+		font-family: Inconsolata;
+		color:#FFFFFF;
+		text-align: center;
+		font-size:24px;
+		background-color: #808080;
+		width:700px;
+		margin: auto auto;
+		text-transform: uppercase;
+		word-spacing: 2em;
+		padding:1px 1px 1px 1px;
+		
+	
+	}
+
+.s3text
+	{		
+		font-family: Inconsolata;
+		color:#FFFFFF;
+		text-align: center;
+		font-size:30px;
+		background-color: #2699FB;
+		width:700px;
+		margin: auto auto;
+		text-transform: uppercase;
+		padding:1px 1px 1px 1px;
+		line-height:1;
+	}
+	
+.linebreak
+	{
+		margin-left : 150px;
+		margin-right: 150px;
+	}
+	
+.linebreak2
+	{
+		margin-left:250px;
+		margin-right: 250px;
+	}
+	
+.marioimg
+	{
+		width:700px;
+		margin: auto auto;
+		padding:1px 1px 1px 1px;
+
+	}
+	
+.mobileimg
+	{
+		width:700px;
+		margin: auto auto;
+		padding:1px 1px 1px 1px;
+		
+	}
+img.resize1
+	{
+		max-width:100%;
+		max-height:50%;
+	}
+	
+.s4text
+	{
+		font-family: Inconsolata;
+		color:#FFFFFF;
+		text-align: center;
+		font-size:40px;
+		background-color: #2699FB;
+		width:700px;
+		margin: auto auto;
+		text-transform: uppercase;
+		padding:1px 1px 1px 1px;
+		line-height:1;
+	}
+
+
+	
+img.resize2
+	{
+		max-width:100%;
+		max-height:25%;
+	}
+	
+.s5text
+	{
+		font-family: Inconsolata;
+		color:#FFFFFF;
+		text-align: center;
+		font-size:40px;
+		background-color: #2699FB;
+		width:700px;
+		margin: auto auto;
+		text-transform: uppercase;
+		padding:1px 1px 1px 1px;
+		line-height:1;
+	}
+	
+.chessimg
+	{
+		width:700px;
+		margin:auto auto;
+		
+	}
+
+img.resize3
+	{
+		max-width:100%;
+		max-height:50%;
+	}
+	
+.s6text
+	{
+		font-family: Inconsolata;
+		color:#FFFFFF;
+		text-align: center;
+		font-size:40px;
+		background-color: #2699FB;
+		width:700px;
+		margin: auto auto;
+		text-transform: uppercase;
+		padding:1px 1px 1px 1px;
+		line-height:1;
+	}
+	
+.psimg
+	{
+		width:700px;
+		margin: auto auto;	
+	}
+	
+img.resize4
+	{
+		max-width:100%;
+		max-height:50%;
+	}
+
+.s7text
+	{
+		font-family: Inconsolata;
+		color:#FFFFFF;
+		text-align: center;
+		font-size:50px;
+		background-color: #2699FB;
+		width:700px;
+		margin: auto auto;
+		text-transform: uppercase;
+		padding:1px 1px 1px 1px;
+		line-height:1;
+	}
+
+.maincontent
+	{
+		width:700px;
+		margin: auto auto;
+		background-color: #FFFFFF;
+	}
+	
+	
+.resizecubic
+	{
+		max-width:30%;	
+		padding: 5px 5px 5px 5px;
+	}
+
+.resizehouse
+	{
+		max-width: 33%;
+		padding: 5px 5px 5px 5px;
+	}
+
+.resizemario
+	{
+		max-width: 31%;
+		padding: 1px 5px 5px 5px;		
+	}
+	
+.moreinformation
+	{
+		font-size:24px;
+		padding:0 0 0 20px;		
+	}
+	
+.contactform
+	{
+		color:#000000;
+		text-align: left;
+		font-size:15px;
+		background-color: #F5F5F5;
+		width:700px;
+		margin: auto auto;		
+		text-transform: uppercase;
+		padding:1px 1px 1px 1px;
+		line-height:1;
+	
+	}
+
+.contact
+	{	
+		background-color: #F5F5F5;
+		line-height:1;
+		padding:5px 20px 5px 20px;		
+	}
+	
+.contactFormFieldset
+	{
+		background-color: #FFFFFF;
+	}
+	
+input{
+	width:100%;
+	border:none;
+}
+
+textarea
+	{
+		width:100%;
+		border:none;
+	}
+.submitbutton
+	{
+		background-color:#2699FB;
+		color:#FFFFFF;
+		font-size:20px;
+		margin-bottom:20px;
+		line-height:2;
+		text-align:center;	
+	}
+	
+select
+	{
+		float:right;
+		width:70%;
+	}	
+
+.s8text
+	{
+		font-family: Inconsolata;
+		color:#FFFFFF;
+		text-align: center;
+		font-size:40px;
+		background-color: #2699FB;
+		width:700px;
+		margin: auto auto;
+		text-transform: uppercase;
+		padding:1px 1px 1px 1px;
+		line-height:2;
+	}	
+
+
+#flexbox
+	{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		margin:auto auto;
+		width: 700px;
+		height:700px;
+		background-color: #FFFFFF;
+	}
+	
+.productsimage
+	{
+		width: 200px;
+		height: 150px;
+		margin:auto auto;
+		padding: 3px 3px 3px 3px;		
+	}
+
+.ads
+	{
+		float: left;
+	}
+	
+footer
+	{
+		font-family: Inconsolata;
+		background-color: #000000;
+		text-align:center;
+		color:#FFFFFF;
+		clear:both;
+		margin:auto auto;
+		width:700px;
+	}
+}
+
+@media screen and ( max-width: 959px)
+	{
+		html
+		{
+			background-color:  #FFFFFF;
+		}
+
+		body
+		{
+			width: 100%;
+		}
+		
+		.video
+		{
+			display:none;
+		}
+	}
+	
+@media screen and (max-width: 360px)
+{
+	html
+	{
+		background-color: #FFFFFF;
+	}
+	
+	body
+	{
+		width: 100%;
+	}
+		
+	.video
+		{
+			display:none;
+		}
+		
+	.s4text
+	{
+		display: none;
+	}
+	.s5text
+	{
+		display: none;
+	}
+	.s6text
+	{
+		display: none;
+	}
+}
+
